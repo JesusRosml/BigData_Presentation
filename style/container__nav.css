@@ -1,0 +1,6 @@
+.container__nav {
+    width: 37%;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
