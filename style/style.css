@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    height: 6700px;
+    height: 6800px;
     position: relative;
     background: #FFFFFF;   
 }
