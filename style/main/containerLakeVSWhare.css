@@ -1,0 +1,55 @@
+.container__LakeVSWhare {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__LakeVSWhare--title h4 {
+    margin-top: -5px;
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.container__LakeVSWhare--title p {
+    color: #424242;
+    font-size: 1.1rem;
+    padding-right: 24%;
+}
+
+.container__LakeVSWhare--information {
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid #BDBDBD;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container__textVS {
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+.container__textVS h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #212121;
+}
+
+.container__LakeVSWhare--information p {
+    padding-left: 4%;
+    width: 55%;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.vsmodifylinks { width: 100%; height: 50px; display: flex; align-items: center; margin-top: -20px;}
+.vsmodifylinks a { padding-left: 45%; }

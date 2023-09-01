@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="style/main/container__datalake--articleOne.css">
     <link rel="stylesheet" href="style/main/containerlist__funcionamiento.css">
     <link rel="stylesheet" href="style/main/container__datalake--articleThree.css">
+    <link rel="stylesheet" href="style/main/container-warehouse.css">
+    <link rel="stylesheet" href="style/main/container__warehouse--articleOne.css">
+    <link rel="stylesheet" href="style/main/containerLakeVSWhare.css">
+    <link rel="stylesheet" href="style/main/container__whichChoose.css">
+    <link rel="stylesheet" href="style/main/container__mainDifferences.css">
     <!-- Tipografía -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,11 +64,13 @@
                 <li class="container__nav-li">Usos del data lake</li>
                 <li class="container__nav-li">¿Qué es el data wharehouse?</li>
                 <li class="container__nav-li">Historia</li>
-                <li class="container__nav-li">¿Qué es?</li>
                 <li class="container__nav-li">Estructura</li>
                 <li class="container__nav-li">Data Lake vs Data Wharehouse</li>
-                <li class="container__nav-li">Diferencias</li>
                 <li class="container__nav-li">¿Cuál escoger?</li>
+                <li class="container__nav-li">Las principales diferencias</li>
+                <li class="container__nav-li">
+                    Data Lakehouse
+                </li>
             </ul>
         </nav>
     </div>
@@ -193,17 +200,236 @@
                             </span>
                        </div>
                     </div>
-
-
                 </div>
             </article>
 
-
+            <div class="container__divisor modifyUltimate--delgate"></div>
         </section>
-        
+
+        <section class="container-warehouse">
+            <article class="container__warehouse--articleOne">
+                <h4>
+                    ¿Qué es el Data Warehouse?
+                </h4>
+
+                <p>
+                    Es un almacén de datos centralizado donde una empresa puede almacenar toda su información, ya 
+                    sea de ventas, clientes, productos, etc., de manera organizada y estructurada. Este almacén de 
+                    datos recoge información de varias fuentes, la procesa y luego la almacena en un formato 
+                    estructurado, lo que facilita el análisis y la generación de informes.
+                </p>
+
+            </article>
+
+            <div class="container__divisor container__divisor--modify"></div>
+
+            <article class="container__warehouse--articleTwo artcileTwo--modify">
+                <h4>
+                    Historia 
+                </h4>
+
+                <p>
+                    El concepto de Data Warehouse se originó en 1988 con el trabajo de los investigadores de IBM, 
+                    Barry Devlin y Paul Murphy aunque el término Data Warehouse fue acuñado por William H. Inmon, 
+                    el cual es conocido como el padre de Data Warehousing. Inmon describió un Data Warehouse como 
+                    una colección de datos orientada a un tema específico, integrado, variante en el tiempo y no 
+                    volátil, que soporta el proceso de toma de decisiones.
+                </p>
+            </article>
+
+            <div class="container__divisor container__divisor--modify"></div>
+
+            <article class="container__estructura">
+                <h4>
+                    Estructura
+                </h4>
     
+                <p>
+                    La arquitectura de un Data Warehouse puede ser dividida en tres estructuras simplificadas: básica, 
+                    básica con un área de ensayo y básica con área de ensayo y Data marts.
+                </p>
+    
+                <ul class="container__estructura--list">
+                    <li>
+                        <span>-</span> Con una estructura básica, sistemas operativos y archivos planos 
+                        proporcionan datos en bruto que se almacenan junto con metadatos. Los usuarios finales pueden 
+                        acceder a ellos para su análisis, generación de informes y minería.
+                    </li>
+                    <li>
+                        <span>-</span> Al añadir un área de ensayo que se puede colocar entre las fuentes 
+                        de datos y el almacén, ésta proporciona un lugar donde los datos se pueden limpiar antes de 
+                        entrar en el almacén. Es posible personalizar la arquitectura del almacén para diferentes 
+                        grupos dentro de la organización.
+                    </li>
+                    <li>
+                        <span>-</span> Se puede hacer agregando Data marts, que son sistemas diseñados 
+                        para una línea de negocio en particular. Se pueden tener Data marts separados para ventas, 
+                        inventario y compras, por ejemplo, y los usuarios finales pueden acceder a datos de uno o de 
+                        todos los Data marts del departamento.
+                    </li>
+                </ul>
+            </article>
+
+            <div class="container__divisor container__divisor--modify"></div>
+
+            <article class="container__LakeVSWhare">
+                <div class="container__LakeVSWhare--title">
+                    <h4>
+                        Data Lake vs Data Wharehouse
+                    </h4>
+                    
+                    <p>
+                        El Data Lake y el Data Warehouse son similares a primera vista: ambos sistemas están 
+                        diseñados para permitir el almacenamiento de una gran cantidad de datos.
+                    </p>
+                </div>
+
+                <div class="container__LakeVSWhare--information">
+                    <div class="container__textVS">
+                        <h4>
+                            Almacenamiento Versátil de Datos: Explorando el Potencial del Data Lake
+                        </h4>
+                    </div>
+
+                    <p>
+                        El Data Lake es un repositorio compartido que le permite adquirir y almacenar grandes 
+                        cantidades de datos procedentes de sistemas heterogéneos en formato nativo, es decir, 
+                        datos en bruto estructurados, semiestructurados y no estructurados. La adquisición puede 
+                        provenir de sistemas heredados, como CRM y ERP, o de fuentes externas, como feeds, 
+                        Internet de las Cosas y datos de redes sociales.
+                    </p>
+
+                    <div class="container-diva vsmodifylinks">
+                        <a href="#">Mas información</a>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                   </div>
+                </div>
+
+                <div class="container__LakeVSWhare--information">
+                    <div class="container__textVS">
+                        <h4>
+                            Un Enfoque Crudo y Potente para el Descubrimiento de Datos
+                        </h4>
+                    </div>
+
+                    <p>
+                        El objetivo de un Data Lake es ofrecer una perspectiva cruda de los datos para facilitar 
+                        las tareas de descubrimiento de datos, lo que lo hace ideal para usuarios con 
+                        conocimientos avanzados.
+                    </p>
+
+                    <div class="container-diva vsmodifylinks">
+                        <a href="#">Mas información</a>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                   </div>
+                </div>
+
+                <div class="container__LakeVSWhare--information">
+                    <div class="container__textVS">
+                        <h4>
+                            Data Warehouse: Una Perspectiva Unificada y Validada del Negocio
+                        </h4>
+                    </div>
+
+                    <p>
+                        En cambio, el Data Warehouse busca ofrecer una perspectiva unificada del negocio mediante 
+                        el uso de herramientas de análisis empresarial y de Big Data. Esta visión está regulada y 
+                        validada mediante métodos específicos de incorporación de datos, diseñados para guardar 
+                        solamente la información que ha sido procesada para una finalidad o actividad empresarial 
+                        concreta.
+                    </p>
+
+                    <div class="container-diva vsmodifylinks">
+                        <a href="#">Mas información</a>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                   </div>
+                </div>
+            </article>
+
+            <div class="container__divisor modifyUltimate--delgate"></div>
+
+            <article class="container__whichChoose">
+                <h4>
+                    Data Lake y Data Warehouse, ¿cuál escoger?
+                </h4>
+
+                <p>
+                    Por un lado, el Data Lake es perfecto para almacenar todo tipo de datos, sin necesidad de 
+                    procesamiento y sin una finalidad concreta. Son sistemas de almacenamiento muy accesibles que 
+                    se pueden actualizar fácilmente.
+                </p>
+
+                <p>
+                    En la otra vertiente, el Data Warehouse ofrece un ahorro considerable, aunque el proceso de 
+                    datos que debe aplicarse requiere que los objetivos del big Data estén definidos. Al ser mucho 
+                    más simples, pueden ser utilizados por empresarios sin un perfil técnico. Es importante 
+                    mencionar que es mucho más difícil aplicar cambios.
+                </p>
+            </article>
+
+            <div class="container__divisor modifyUltimate--delgate"></div>
+
+            <article class="container__mainDifferences">
+                <h4>
+                    Las principales diferencias entre Data Lake y Data Warehouse 
+                </h4>
+
+                <p>
+                    Existen diferentes elementos que distinguen Data Lake de Data Warehouse, los más relevantes 
+                    engloban temas de estructura, usuario y accesibilidad, entre otros.  
+                </p>
+
+                <div class="container__cajitaDiferencias">
+                    <div class="container__informationBoxFight modifyInformationFifht">
+                        <p>
+                            Data Lake puede almacenar datos sin procesar y que todavía no tienen una finalidad 
+                            establecida, mientras que Data Warehouse cuenta con datos procesados y con una 
+                            finalidad determinada.  
+                        </p>
+                    </div>
+                    <div class="container__informationBoxFight modifyInformationFifht">
+                        <p>
+                            Data Lake es relativamente nuevo en las tecnologías de Big Data, mientras que Data 
+                            Warehouse lleva décadas en uso.
+                        </p>   
+                    </div>
+                    <div class="container__informationBoxFight modifyInformationFifht modifyboxfigth02">
+                      <p>
+                            Data Lakes conserva todos los datos, a diferencia de Data Warehouse que decide que datos 
+                            incluye o elimina.  
+                      </p>
+                    </div>
+                    <div class="container__informationBoxFight">
+                       <p>
+                            Data Lake utiliza el proceso de ELT (Extract Load Transform) mientras que Data Warehouse 
+                            usa ETL (Extract Transform Load). 
+                       </p> 
+                    </div>
+                    <div class="container__informationBoxFight">
+                        <p>
+                            Los usuarios de Data Lake son científicos de datos, además de ser muy accesible y de 
+                            pronta actualización. Por otro lado, Data Warehouse es utilizado mayormente por personas 
+                            de negocios, es un tanto complicado y es complejo llevar cambios.
+                        </p>
+                    </div>
+                    <div class="container__informationBoxFight modifyboxfigth02">
+                       <p>
+                            Data Lake es ideal para aquellos que quieren un análisis profundo. Data Warehouse es para 
+                            aquellos usuarios más operativos.  
+                       </p>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     
-    <script src="scripts/scrollFixed.js"></script>
+    
+    <script src="scripts/app.js"></script>
 </body>
 </html>

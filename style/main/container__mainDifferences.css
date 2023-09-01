@@ -1,0 +1,49 @@
+.container__mainDifferences {
+    margin-top: -45px;
+    height: auto;
+    width: 100%;
+}
+
+.container__mainDifferences h4 {
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.container__mainDifferences p {
+    color: #424242;
+    font-size: 1.1rem;
+    padding-right: 7.5%;
+}
+
+.container__cajitaDiferencias {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__informationBoxFight {
+    background: #EEEEEE;
+    width: 30%;
+    border-right: 1px solid #BDBDBD;
+}
+
+.container__informationBoxFight:hover {
+    background: #E0E0E0;
+}
+
+.modifyboxfigth02 {
+    border-right: 0px;
+} 
+
+.container__informationBoxFight p {
+    padding: 20px;
+}
+
+.modifyInformationFifht {
+    border-bottom: 1px solid #BDBDBD;
+}
