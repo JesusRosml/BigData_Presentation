@@ -1,0 +1,33 @@
+.container__dataLakehouse {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.container__dataLakehouse h4 {
+    margin-top: -5px;
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.container__dataLakehouse p {
+    margin-bottom: 30px;
+    color: #424242;
+    font-size: 1.1rem;
+    padding-right: 24%;
+}
+
+.containerList__ultimate {
+    padding-top: 3%;
+    padding-right: 24%;
+    margin-left: -35px;
+    margin-bottom: 40px;
+}
+
+.containerList__ultimate li {
+    color: #424242;
+    font-size: 1.1rem;
+}

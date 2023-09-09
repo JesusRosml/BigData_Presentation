@@ -1,0 +1,16 @@
+.container__nav--loadingBar {
+    height: 430px;
+    width: 5px;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-left: 15px;
+    position: relative;
+    background: #E0E0E0;
+}
+
+.stripe {
+    height: 45px;
+    width: 100%;
+    background: #000;
+
+}

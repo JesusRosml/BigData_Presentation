@@ -1,0 +1,6 @@
+.container-banner__title {
+    height: 100%;
+    width: 55%;
+    position: absolute;
+    background: linear-gradient(to right, #1a1a1a, #1a1a1a 40%, transparent 100%);
+}

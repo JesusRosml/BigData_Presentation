@@ -1,0 +1,24 @@
+.container__fuentes--title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.container__fuentes--title h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+} 
+
+.container__fuentes--title p {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    color: #212121;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
